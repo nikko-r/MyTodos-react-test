@@ -1,8 +1,7 @@
-import SearchBar from "./components/SearchBar/SearchBar";
+import InputBox from "./components/InputBox/InputBox";
 import TodoCard from "./components/TodoCard/TodoCard";
-
-import logo from "./logo.svg";
 import "./App.scss";
+import { useState, useEffect } from "react";
 
 function App() {
   return (
@@ -11,7 +10,7 @@ function App() {
         <h1 className="top-section__title">My Todos</h1>
         <button className="top-section__reset-button">Reset</button>
       </div>
-      <SearchBar></SearchBar>
+      <InputBox></InputBox>
     </div>
   );
 }

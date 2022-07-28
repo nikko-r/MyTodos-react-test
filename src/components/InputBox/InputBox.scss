@@ -1,11 +1,11 @@
-.search-bar {
+.input-box {
     display: flex;
     justify-content: center;
     align-items: stretch;
     height: 40px;
     border: 2px solid black;
     border-radius: 7px;
-    .search-bar__input {
+    .input-box__input {
         // border: 2px solid black;
         // border-right: 0px solid transparent;
         // border-radius: 7px 0px 0px 7px;
@@ -13,7 +13,7 @@
         width: 88%;
         text-indent: 5px;
     }
-    .search-bar__add-button {
+    .input-box__add-button {
         width: 12%;
         // border: 2px solid black;
         // border-left: 0px solid transparent;
